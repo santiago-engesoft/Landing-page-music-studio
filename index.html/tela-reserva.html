@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css/tela-reserva.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="tela-cadastro">
+<form action="">
+    <h2>AGENDE SEU ENSAIO AQUI!</h2>
+
+    <fieldset class="caixa">
+        <div class="input-field">
+            <label for="lb">Banda:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o nome da sua banda">
+        </div>
+
+        <div class="inpiut-field">
+            <label for="lb">Data:</label>
+            <input type="date" name="data" id="data">
+        </div>
+
+        <div class="inpiut-field">
+            <label for="lb">Entrada:</label>
+            <input type="time" name="entrada" id="entrada">
+        </div>
+
+        <div class="inpiut-field">
+            <label for="lb"> Saída:</label>
+            <input type="time" name="saida" id="saida">
+        </div>
+    <fieldset class="caixa2">
+        <div  class="aluguel">
+            <h2>Deseja alugar?</h2>
+            <label><!-- GUITARRA -->
+                <input type="radio" name="guitarra" value="guitarra">Guitarra
+                <select name="selecione" id="selecione">
+                    <option>Selecione</option>
+                    <option>1- Guitarra</option>
+                    <option>2- Guitarra</option>
+                    <option>3- Guitarra</option>
+                </select>
+            </label>
+
+            <label"><!-- BAIXO -->
+                <input type="radio" name="baixo" value="baixo">Baixo
+                <select name="selecione" id="selecione">
+                    <option>Selecione</option>
+                    <option>1- Baixo</option>
+                    <option>2- Baixo</option>
+                    <option>3- Baixo</option>
+                </select>
+            </label>
+
+             <label"><!-- MIX -->
+                <input type="radio" name="baixo" value="baixo">Mix
+                <select name="selecione" id="selecione">
+                    <option>Selecione</option>
+                    <option>Microfone Extra</option>
+                    <option>Plato de ataque</option>
+                    <option>Pedal Duplo</option>
+                    <option>...</option>
+                    <option>...</option>
+                    <option>...</option>
+                    <option>...</option>
+                </select>
+            </label>
+        </div> <!-- ALUGUEL -->
+        
+    </fieldset>
+    
+    <div class="botao">
+        <button type="submit">Finalizar</button>
+    </div><!-- BOTAO -->
+        </div>
+               
+    </fieldset>
+</form>
+
+  </div>
+    
+</body>
+</html>
